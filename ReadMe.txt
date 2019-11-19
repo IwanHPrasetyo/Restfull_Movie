@@ -1,3 +1,8 @@
+<p align="center">
+  <img width="600" height="350" src="https://d37xsajsdyperf.cloudfront.net/assets/node-pg-084a19b5984263a44b078dbdb1cd9d252d7b520da18f63763840a7eb800dba28.png">
+</p>
+
+
 Berikut adalah penejelasan mengenai Restfull_Movie (Backend) :
 
 List Fitur :
