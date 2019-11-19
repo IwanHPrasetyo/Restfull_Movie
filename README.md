@@ -4,9 +4,10 @@
 </p>
 
 
-Berikut adalah penejelasan mengenai Restfull_Movie (Backend) :
+# Berikut adalah penejelasan mengenai Restfull_Movie (Backend) :
+  Restful_Movie merupakan aplikasi yang dibuat dengan menggunakan Node.js dan Express.js
 
-List Fitur :
+## List Fitur :
 
 1. CRUD Movie
 2. CRD Category
@@ -15,7 +16,7 @@ List Fitur :
 5. Upload gambar ke coldinary
 6. Upload video ke folder public/video backend
 
-List Requirement :
+## List Requirement :
 
 1. Node version : v10.17.0
 2. Npm  version : 6.11.3
@@ -24,7 +25,7 @@ List Requirement :
 6  Visual Studio Code
 7. Postman
 
-List Dependencies :
+## List Dependencies :
 
 1. body-parser        : version 1.19.0         ( npm i body-parser )
 2. cloudinary         : version 1.16.0         ( npm i cloudinary )
@@ -35,13 +36,14 @@ List Dependencies :
 8. nodemon            : version 1.19.4         ( npm i nodemon )
 9. uuid               : version 3.3.3          ( npm i uuid )
 
-Cara menjalankan :
+## Cara menjalankan :
 1. Jalankan server postgresql dan masuk sebagai super user   (sudo -i -u postgres)
 2. Jalankan PgAdmin III dan koneksikan dengan localserver menggunakan akun super user
 2. Buat databse baru dengan nama Nostra Movie
 3. Kemudian import backup database yang ada di folder database
 4. Rubah data pada .env
     
+    ```
     PORT= port yang anda gunakan
     URL = url yang anda gunakan
 
@@ -54,6 +56,7 @@ Cara menjalankan :
     PGPASSWORD= password posgresql anda
     PGDATABASE=Nostra Movie
     PGPORT= port posgresql anda
+    ```
     
 5. Setelah berhasil buka terminal dan masuk ke dalam directory project Nostra Movie
 6. Kemudian jalankan dengan perintah "Npm start"
