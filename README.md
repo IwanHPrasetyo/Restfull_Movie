@@ -66,20 +66,20 @@
 ## List Api
 
 **1. Movie**
-
-    - Get Movie ( (URL dan port yang anda gunakan) /movies ) ex:( http://localhost:3000/movies )
-    
-    - Add Movie ( (URL dan port yang anda gunakan) movies/add )    ex:( http://localhost:3000/movies/add )
+  
+ - Get Movie ( (URL dan port yang anda gunakan) /movies ) ex:( http://localhost:3000/movies )
+  
+ - Add Movie ( (URL dan port yang anda gunakan) movies/add )    ex:( http://localhost:3000/movies/add )
         <>FIELD PADA FORM INPUT YANG DIGUNAKAN ('name', 'name_category', 'description', 'image (type file)', 'video (type   file)')
     
-    - Delete Movie ( (URL dan port yang anda gunakan) /movies/delete ) ex:( http://localhost:3000/movies/delete ) ex : (http://localhost:3000/movies/delete?id_movie=ab786b20-0118-11ea-aa19-1b2c5a892980)
+   - Delete Movie ( (URL dan port yang anda gunakan) /movies/delete ) ex:( http://localhost:3000/movies/delete ) ex : (http://localhost:3000/movies/delete?id_movie=ab786b20-0118-11ea-aa19-1b2c5a892980)
         <>FIELD PADA PARAM YANG DIGUNAKAN ('id_movie')
 
-    - Update Movie ( (URL dan port yang anda gunakan) movies/update/(id_movie yang akan di ubah) )    ex:( http://localhost:3000/movies/update/1 )
+   - Update Movie ( (URL dan port yang anda gunakan) movies/update/(id_movie yang akan di ubah) )    ex:( http://localhost:3000/movies/update/1 )
         <>
         <>FIELD PADA FORM INPUT YANG DIGUNAKAN ('name', 'name_category', 'description', 'image (type file)', 'video (type file)') 
     
-    - Get Detail Movie ( (URL dan port yang anda gunakan) /movies/detail ) ex:( http://localhost:3000/movies/detail ) ex : (http://localhost:3000/movies/detail?id_movie=5facb920-01cd-11ea-9969-57c9e0692d6e)
+   - Get Detail Movie ( (URL dan port yang anda gunakan) /movies/detail ) ex:( http://localhost:3000/movies/detail ) ex : (http://localhost:3000/movies/detail?id_movie=5facb920-01cd-11ea-9969-57c9e0692d6e)
         <>FIELD PADA PARAM YANG DIGUNAKAN ('id_movie')
 
 **2. name_category**
