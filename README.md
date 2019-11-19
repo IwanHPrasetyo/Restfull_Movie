@@ -77,8 +77,8 @@
   FIELD PADA FORM INPUT YANG DIGUNAKAN ('name', 'name_category', 'description', 'image (type file)', 'video (type   file)')
   ```  
   - Delete Movie ( (URL dan port yang anda gunakan) /movies/delete ) 
-        - http://localhost:3000/movies/delete
-        - http://localhost:3000/movies/delete?id_movie=ab786b20-0118-11ea-aa19-1b2c5a892980
+       - http://localhost:3000/movies/delete
+       - http://localhost:3000/movies/delete?id_movie=ab786b20-0118-11ea-aa19-1b2c5a892980
    
    ```
    FIELD PADA PARAM YANG DIGUNAKAN ('id_movie')
