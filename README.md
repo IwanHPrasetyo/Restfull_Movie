@@ -37,6 +37,7 @@
 9. uuid               : version 3.3.3          ( npm i uuid )
 
 ## Cara menjalankan :
+
 1. Jalankan server postgresql dan masuk sebagai super user   (sudo -i -u postgres)
 2. Jalankan PgAdmin III dan koneksikan dengan localserver menggunakan akun super user
 2. Buat databse baru dengan nama Nostra Movie
@@ -62,9 +63,10 @@
 6. Kemudian jalankan dengan perintah "Npm start"
 7. Stelah itu buka postman untuk menggunakan API yang tersedia
 
-List Api
+## List Api
 
-1. Movie
+**1. Movie**
+
     - Get Movie ( (URL dan port yang anda gunakan) /movies ) ex:( http://localhost:3000/movies )
     
     - Add Movie ( (URL dan port yang anda gunakan) movies/add )    ex:( http://localhost:3000/movies/add )
@@ -80,7 +82,7 @@ List Api
     - Get Detail Movie ( (URL dan port yang anda gunakan) /movies/detail ) ex:( http://localhost:3000/movies/detail ) ex : (http://localhost:3000/movies/detail?id_movie=5facb920-01cd-11ea-9969-57c9e0692d6e)
         <>FIELD PADA PARAM YANG DIGUNAKAN ('id_movie')
 
-2. name_category
+**2. name_category**
    - Get Categories ( (URL dan port yang anda gunakan) /categories ) ex:( http://localhost:3000/categories )
 
    - Add Categories ( (URL dan port yang anda gunakan) categories/add )    ex:( http://localhost:3000/categories/add )
