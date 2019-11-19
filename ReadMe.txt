@@ -1,7 +1,4 @@
-Nama : Iwan H Prsasetyo
-Aplikasi : Nostra Movie
-
-Berikut adalah penejelasan mengenai Nostra Movie (Backend) :
+Berikut adalah penejelasan mengenai Restfull_Movie (Backend) :
 
 List Fitur :
 
@@ -62,7 +59,7 @@ List Api
     - Get Movie ( (URL dan port yang anda gunakan) /movies ) ex:( http://localhost:3000/movies )
     
     - Add Movie ( (URL dan port yang anda gunakan) movies/add )    ex:( http://localhost:3000/movies/add )
-        <>FIELD PADA FORM INPUT YANG DIGUNAKAN ('name', 'name_category', 'description', 'image (type file)', 'video (type file)')
+        <>FIELD PADA FORM INPUT YANG DIGUNAKAN ('name', 'name_category', 'description', 'image (type file)', 'video (type   file)')
     
     - Delete Movie ( (URL dan port yang anda gunakan) /movies/delete ) ex:( http://localhost:3000/movies/delete ) ex : (http://localhost:3000/movies/delete?id_movie=ab786b20-0118-11ea-aa19-1b2c5a892980)
         <>FIELD PADA PARAM YANG DIGUNAKAN ('id_movie')
